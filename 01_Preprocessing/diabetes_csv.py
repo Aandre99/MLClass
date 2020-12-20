@@ -35,6 +35,7 @@ data_app = pd.read_csv('diabetes_app.csv')
 y_pred = neigh.predict(data_app)
 
 # Enviando previsões realizadas com o modelo para o servidor
+#servidor do exercicio
 '''
 URL = "https://aydanomachado.com/mlclass/01_Preprocessing.php"
 
